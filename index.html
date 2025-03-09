@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Ajaya Poudel - Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Ajaya <span>Poudel</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about-me">About Me</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#research-projects">Research</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#my-publications">Publications</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#blogging">Blog</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="#my-articles">Articles</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="#my-contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+    </nav>
+    
+    
+    
+    <section>
+        <div class="main-container">
+            <div class="image-container">
+                <img src="images/your-image.jpg" alt="Ajaya Poudel">
+            </div>
+            <div class="content">
+                <h1>Hi! My name is <span>Ajaya Poudel.</span></h1>
+                <div class="typewriter">I'm <span class="typewriter-text"></span><label>|</label></div>
+                <p>I am currently pursuing a Master of Science in Horticulture, with a research focus on plant breeding, genetics, and genomics at Texas A&M University.</p>
+                <div class="social-links">
+                    <a href="https://github.com/ajaya-poudel"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/ajaya.poudel.927/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/ajaya-poudel-b367b7156/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/ajaya_1p"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/ajaya.poudel_/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="btn">
+                    <button>Contact Me</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about-me" class="about-me-section">
+        <div class="about-me-content">
+            <h2>About Me</h2>
+            <p>Your About Me content here...</p>
+        </div>
+    </section>
+    
+
+    <section id="research-projects">
+        <!-- Your About Me content -->
+      </section>
+      
+    <section id="my-publications">
+        <!-- Your About Me content -->
+      </section>
+
+    <section id="blogging">
+        <!-- Your About Me content -->
+      </section>
+
+      <section id="my-articles">
+        <!-- Your About Me content -->
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" action="submit_form.php" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+      
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-container">
+            <div class="branding">
+                <h2>Ajaya Poudel</h2>
+                <p> MS Horticulture Student | Plant Breeding, Genetics, and Genomics
+                    <br> Department of Horticultural Sciences | Texas A&M University, College Station, Texas, USA
+                    <br> Graduate Assistant - Research | Texas A&M Agrilife Research
+                    <br> <a href="mailto:ajaya.p8919@gmail.com">ajaya.p8919@gmail.com</a> | <a href="mailto:ajaya.poudel@tamu.edu">ajaya.poudel@tamu.edu</a> </p>
+            </div>
+    
+            <div class="social-icons">
+                <a href="https://github.com/ajaya-poudel"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/ajaya.poudel.927/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/ajaya-poudel-b367b7156/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/ajaya_1p"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            
+    
+            <p class="copyright">© 2025 Ajaya Poudel. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
